@@ -164,11 +164,108 @@ nav ul a:hover, nav ul a.active {
     transform: translateY(-10px);
 }
 
-.card .icon-wrap {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
-    display: block;
+/* Contact Page Enhancements */
+.contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
+
+.method-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    border-left: 4px solid var(--accent);
+}
+
+.method-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.method-header h3 {
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: var(--bg-main);
+    color: var(--primary);
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 1rem;
+    border: 1px solid var(--border);
+}
+
+.contact-form-container {
+    background: var(--primary);
+    color: var(--white);
+    border-radius: var(--radius);
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.form-wrapper h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form-wrapper p {
+    opacity: 0.8;
+    margin-bottom: 2rem;
+}
+
+.btn-full {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.service-list {
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 2rem;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+}
+
+.feature-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.features .card {
+    padding: 3rem 2rem;
+}
+
 
 .card h2 {
     margin-bottom: 1rem;
